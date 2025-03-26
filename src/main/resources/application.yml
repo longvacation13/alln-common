@@ -2,9 +2,7 @@ spring:
   application:
     name: ssg-alln-common
 
-logging:
-  level:
-    root: DEBUG
+
 
 springdoc:
   swagger-ui:
