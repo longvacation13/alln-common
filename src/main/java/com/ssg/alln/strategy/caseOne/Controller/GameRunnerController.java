@@ -1,6 +1,6 @@
-package com.ssg.alln.Test.Controller;
+package com.ssg.alln.strategy.caseOne.Controller;
 
-import com.ssg.alln.Test.factory.ThreeSixNineFactory;
+import com.ssg.alln.strategy.caseOne.factory.ThreeSixNineFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

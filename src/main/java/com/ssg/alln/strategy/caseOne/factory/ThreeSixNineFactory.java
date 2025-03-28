@@ -1,13 +1,12 @@
-package com.ssg.alln.Test.factory;
+package com.ssg.alln.strategy.caseOne.factory;
 
 
-import com.ssg.alln.Test.dto.RegionEnum;
-import com.ssg.alln.Test.service.ThreeSixNine;
-import com.ssg.alln.Test.service.ThreeSixNineKyunggi;
-import com.ssg.alln.Test.service.ThreeSixNineSeoul;
+import com.ssg.alln.strategy.caseOne.service.ThreeSixNine;
+import com.ssg.alln.strategy.caseOne.service.ThreeSixNineKyunggi;
+import com.ssg.alln.strategy.caseOne.service.ThreeSixNineSeoul;
+import com.ssg.alln.strategy.caseOne.dto.RegionEnum;
 import org.springframework.stereotype.Component;
 
-import javax.swing.plaf.synth.Region;
 import java.util.HashMap;
 import java.util.Map;
 

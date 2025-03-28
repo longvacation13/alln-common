@@ -1,4 +1,4 @@
-package com.ssg.alln.Test.service;
+package com.ssg.alln.strategy.caseOne.service;
 
 public interface ThreeSixNine {
     String playGame();

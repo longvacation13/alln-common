@@ -1,4 +1,4 @@
-package com.ssg.alln.Test.dto;
+package com.ssg.alln.strategy.caseOne.dto;
 
 import java.util.Arrays;
 
