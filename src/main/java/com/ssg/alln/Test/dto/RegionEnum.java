@@ -3,22 +3,20 @@ package com.ssg.alln.Test.dto;
 import java.util.Arrays;
 
 public enum RegionEnum {
-    서울_seoul("seoul"),
-    경기_kyunggi("kyunggi");
+    서울("seoul"),
+    경기("kyunggi");
 
-    String name;
-    RegionEnum(String name) {
-        this.name = name;
+    String region;
+
+    RegionEnum(String region) {
+        this.region = region;
     }
 
-    // static factory 메서드 : new 키워드를 사용하지 않고 객체 반환
-    // 가독성
-    public static RegionEnum find(String region) {
-        return Arrays.stream(values())      // values란 무엇인가?
-                .filter(a -> a.name.equals(region))
+    public static RegionEnum findRegionEnumByString(String region) {
+        return Arrays.stream(values())
+                .filter(value -> value.region.equals(region))
                 .findFirst()
-                .orElseThrow(() -> new IllegalArgumentException("Illegal region : "+region)); // ()는 왜 있어야하나?
+                .orElseThrow(() -> new IllegalArgumentException("region is not included region :"+region));
 
     }
-
 }
