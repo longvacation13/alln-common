@@ -9,6 +9,10 @@ public class Player {
         return this.name;
     }
 
+    public Double getErrorRate() {
+        return this.errorRate;
+    }
+
     private Player(String name, Double errorRate) {
         this.name = name;
         this.errorRate = errorRate;

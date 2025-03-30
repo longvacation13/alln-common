@@ -20,6 +20,6 @@ public class PlayGameFactory {
 
     public void getService(String region, Player a1) {
         PlayGame p = serviceMap.get(region);
-        p.do369(a1);
+        p.play(a1);
     }
 }
